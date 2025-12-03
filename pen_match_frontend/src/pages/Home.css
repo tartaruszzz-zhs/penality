@@ -1,0 +1,57 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav, .footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.hero-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  display: block;
+  border-radius: 12px;
+}
+
+/* 图片中间文字 */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFD700; /* 黄色文字 */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+  pointer-events: none; /* 避免文字阻止点击 */
+}
+
+.hero-text {
+  display: none;
+}
+
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* 保持比例填充容器 */
+  background-color: transparent; /* 避免透明区域变黑 */
+}
+
+

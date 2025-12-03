@@ -1,0 +1,1 @@
+Place a friendly dog PNG at /assets/dog.png. You can replace it later.
