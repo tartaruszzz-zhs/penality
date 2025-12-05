@@ -42,5 +42,5 @@ export async function getMatches(userId) {
   const res = await fetch(`${API_BASE}/match/${userId}`)
   return res.json()
 }
-import { API_BASE } from "./config"; // api.js 和 config.js 同级
+
 
